@@ -86,4 +86,6 @@ use_janrain(auth, filename='private/janrain.key')
 db.define_table('Observation',
     Field('information', 'text'),
     Field('user_id',db.auth_user))
+    
+   
 
